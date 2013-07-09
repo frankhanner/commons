@@ -17,7 +17,7 @@ public class EmailerTest {
     @Before
     public void setUp() {
         emailer = new Emailer();
-		//this assumes localhost is setup as an smtp server
+	//this assumes localhost is setup as an smtp server
         emailer.setHost("localhost");
     }
 
